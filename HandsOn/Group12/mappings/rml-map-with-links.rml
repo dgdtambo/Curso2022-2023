@@ -29,7 +29,7 @@
             rml:reference "location";
             rr:dataType xsd:String;
             rr:joinCondition [
-                rr:child "location"; rr:parent "parameter"; ];
+                rr:child "location"; rr:parent "param"; ];
         ];
         
     ].
@@ -63,14 +63,14 @@
             ];
     ].  
 	
-  <#parameter> a rr:TriplesMap;
+  <#param> a rr:TriplesMap;
     rml:logicalSource [
 		rml:source "Calidad_AgRegenerada_2022-update.csv";
 		rml:ReferenceFormulation ql:CSV
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/parameter/{parameter}";
-		rr:termType rr:IRI; rr:class regeneratedWater:parameter
+		rr:template "http://base.regeneratedwater.com/param/{parameter}";
+		rr:termType rr:IRI; rr:class regeneratedWater:param
 		]; 
     rr:predicateObjectMap[
 		rr:predicateMap [ 
@@ -82,7 +82,7 @@
 			rml:reference "parameter";
 			rr:dataType xsd:String;
 			rr:joinCondition [
-                rr:child "parameter"; rr:parent "sample"; ];
+                rr:child "param"; rr:parent "sample"; ];
 		]	
 	];
 		rr:predicateObjectMap [
@@ -98,7 +98,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra1_1}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra1_1}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -117,7 +117,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra2_1}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra2_1}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -137,7 +137,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra1_2}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra1_2}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -157,7 +157,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra2_2}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra2_2}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -177,7 +177,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra1_3}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra1_3}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -197,7 +197,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra2_3}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra2_3}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -217,7 +217,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra1_4}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra1_4}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -237,7 +237,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra2_4}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra2_4}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -257,7 +257,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra1_5}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra1_5}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -277,7 +277,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra2_5}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra2_5}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -297,7 +297,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra1_6}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra1_6}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -317,7 +317,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra2_6}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra2_6}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -337,7 +337,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra1_7}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra1_7}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -357,7 +357,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra2_7}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra2_7}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -377,7 +377,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra1_8}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra1_8}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -397,7 +397,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra2_8}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra2_8}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -417,7 +417,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra1_9}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra1_9}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -437,7 +437,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra2_9}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra2_9}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -457,7 +457,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra1_10}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra1_10}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -477,7 +477,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra2_10}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra2_10}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -497,7 +497,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra1_11}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra1_11}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -517,7 +517,7 @@
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra2_11}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra2_11}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		]; 
      rr:predicateObjectMap[
@@ -536,7 +536,7 @@
 		rml:referenceFormulation ql:CSV
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra1_12}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra1_12}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		];
      rr:predicateObjectMap[
@@ -556,7 +556,7 @@
 		rml:referenceFormulation ql:CSV
 		];
     rr:subjectMap [
-		rr:template "http://base.regeneratedwater.com/{Muestra2_12}";
+		rr:template "http://base.regeneratedwater.com/sample/{Muestra2_12}";
 		rr:termType rr:IRI; rr:class regeneratedWater:sample
 		];
      rr:predicateObjectMap[
