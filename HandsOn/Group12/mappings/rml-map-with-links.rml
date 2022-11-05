@@ -13,7 +13,7 @@
 
  <#purification_plant> a rr:TriplesMap;
     rml:logicalSource[
-        rml:source "Calidad_AgRegenerada_2022-update.csv";
+        rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
         rml:referenceFormulation ql:CSV 
         ];
     rr:subjectMap [
@@ -35,7 +35,7 @@
     ].
  <#district> a rr:TriplesMap;
 	rml:logicalSource [
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:ReferenceFormulation ql:CSV
 		];
     rr:subjectMap [
@@ -65,7 +65,7 @@
 	
   <#param> a rr:TriplesMap;
     rml:logicalSource [
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:ReferenceFormulation ql:CSV
 		];
     rr:subjectMap [
@@ -82,7 +82,7 @@
 			rml:reference "parameter";
 			rr:dataType xsd:String;
 			rr:joinCondition [
-                rr:child "param"; rr:parent "sample"; ];
+                rr:child "parameter"; rr:parent "sample"; ];
 		]	
 	];
 		rr:predicateObjectMap [
@@ -94,7 +94,7 @@
 	].
 	<#Muestra1_1> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -113,7 +113,7 @@
 	].
       <#Muestra2_1> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -133,7 +133,7 @@
 	
 	 <#Muestra1_2> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -153,7 +153,7 @@
 	
 	 <#Muestra2_2> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -173,7 +173,7 @@
 	
 	 <#Muestra1_3> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -193,7 +193,7 @@
 	
 	 <#Muestra2_3> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -213,7 +213,7 @@
 	
 	 <#Muestra1_4> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -233,7 +233,7 @@
 	
 	 <#Muestra2_4> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -253,7 +253,7 @@
 	
 	 <#Muestra1_5> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -273,7 +273,7 @@
 	
 	 <#Muestra2_5> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -293,7 +293,7 @@
 	
 	 <#Muestra1_6> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -313,7 +313,7 @@
 	
 	 <#Muestra2_6> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -333,7 +333,7 @@
 	
 	 <#Muestra1_7> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -353,7 +353,7 @@
 	
 	 <#Muestra2_7> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -373,7 +373,7 @@
 	
 	 <#Muestra1_8> a rr:TriplesMap; 
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -393,7 +393,7 @@
 	
 	 <#Muestra2_8> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -413,7 +413,7 @@
 	
 	 <#Muestra1_9> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -433,7 +433,7 @@
 	
 	 <#Muestra2_9> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -453,7 +453,7 @@
 	
 	 <#Muestra1_10> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -473,7 +473,7 @@
 	
 	 <#Muestra2_10> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -493,7 +493,7 @@
 	
 	 <#Muestra1_11> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -513,7 +513,7 @@
 	
 	 <#Muestra2_11> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV   
 		];
     rr:subjectMap [
@@ -532,7 +532,7 @@
 	].
 	 <#Muestra1_12> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV
 		];
     rr:subjectMap [
@@ -552,7 +552,7 @@
 
 	 <#Muestra2_12> a rr:TriplesMap;
 	rml:logicalSource[
-		rml:source "Calidad_AgRegenerada_2022-update.csv";
+		rml:source "Calidad_AgRegenerada_2022-update-with-links.csv";
 		rml:referenceFormulation ql:CSV
 		];
     rr:subjectMap [
@@ -569,12 +569,3 @@
 			rr:dataType xsd:String
 		]
 	].
-
-
-   
-
-
-
-
-	
-	  
