@@ -40,7 +40,7 @@
 		];
     rr:subjectMap [
 		rr:template "http://base.regeneratedwater.com/param/{parameter}";
-		rr:termType rr:IRI; rr:class regeneratedWater:parameter
+		rr:termType rr:IRI; rr:class regeneratedWater:param
 		]; 
     rr:predicateObjectMap[
 		rr:predicateMap [ 
@@ -52,7 +52,7 @@
 			rml:reference "parameter";
 			rr:dataType xsd:String;
 			rr:joinCondition [
-				rr:child "param"; rr:parent "sample"; ];
+				rr:child "parameter"; rr:parent "sample"; ];
 		]
 	].
    
@@ -93,7 +93,7 @@
 		];
 		
 		rr:objectMap[
-			rml:reference "Muestra 2_1";
+			rml:reference "Muestra2_1";
 			rr:dataType xsd:String
 		]
 	].
@@ -497,5 +497,3 @@
 			rr:dataType xsd:String
 		]
 	].
-	
-	
